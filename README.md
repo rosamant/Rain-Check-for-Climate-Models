@@ -21,6 +21,8 @@ The folder "Time\_Slice\_Map" contains the R scripts `Deep-Site\_NGR.R` and `Sha
 The folder "NetCDF" contains all the NetCDF files for HadCM3 modelled P-E and runoff simulations. The masks for the Australian paleocoastlines are also provided in this folder. The R Scripts and outputs of HadCM3 modelled P-E and runoff are provided in their respective folders. R Scripts required to plot Figure 4 are provided in the "Latitudinal Distribution" folder. 
 
 
+Due to file size constraints on GitHub, the bathymetry file (`gebco_australia_bathymetry.tif`, ~329 MB) used in `Time_Slice_Map/Time-Slice-Map.R` 
+is not included in this repository. This file is publicly available from GEBCO: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
 
 
 
