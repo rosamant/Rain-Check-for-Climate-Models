@@ -5,8 +5,7 @@
 Natural Gamma Radiation data used for this paper are freely available through the National Offshore Petroleum Information Management System (NOPIMS, Geoscience Australia) (https://www.ga.gov.au/nopims). The core-based NGR data for the IODP Sites are available through the IODP repository (https://web.iodp.tamu.edu/LORE/?appl=LORE\&reportName=ngr). The scientific downhole logging data is available at https://mlp.ldeo.columbia.edu/logdb/. 
 
 
-
-NGR data for all 105 sites is stored in .csv files in two folders: "Sites Data\_Depth-NGR" and "Sites Data\_Age-NGR"
+All the R scripts and Data used for this work are in the "RScripts&Data" folder. NGR data for all 105 sites is stored in .csv files in two folders: "Sites Data\_Depth-NGR" and "Sites Data\_Age-NGR"
 
 
 
@@ -20,35 +19,19 @@ The folder "Time\_Slice\_Map" contains the R scripts `Deep-Site\_NGR.R` and `Sha
 
 The folder "NetCDF" contains all the NetCDF files for HadCM3 modelled P-E and runoff simulations. The masks for the Australian paleocoastlines are also provided in this folder. The R Scripts and outputs of HadCM3 modelled P-E and runoff are provided in their respective folders. R Scripts required to plot Figure 4 are provided in the "Latitudinal Distribution" folder. 
 
+The folder "MioMIP1 & CMIP6 Simulations" contains the `CMIP6\_Data.R` for plotting Extended Data Figure 8 and the R scripts `MioMIP1\_P-E\_EM.R` and `MioMIP1\_P-E\_LM.R` for plotting Extended Figures 3-7. 
 
 Due to file size constraints on GitHub, the bathymetry file (`gebco_australia_bathymetry.tif`, ~329 MB) used in `Time_Slice_Map/Time-Slice-Map.R` 
 is not included in this repository. This file is publicly available from GEBCO: https://www.gebco.net/data_and_products/gridded_bathymetry_data/
 
 
 
-\## License
+License
+Shield: CC BY 4.0
 
+This work is licensed under a Creative Commons Attribution 4.0 International License.
 
-
-Shield: \[!\[CC BY 4.0]\[cc-by-shield]]\[cc-by]
-
-
-
-This work is licensed under a
-
-\[Creative Commons Attribution 4.0 International License]\[cc-by].
-
-
-
-\[!\[CC BY 4.0]\[cc-by-image]]\[cc-by]
-
-
-
-\[cc-by]: http://creativecommons.org/licenses/by/4.0/
-
-\[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-
-\[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+CC BY 4.0
 
 
 
