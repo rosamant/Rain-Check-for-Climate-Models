@@ -7,12 +7,12 @@ M2LMIO400 <- "M2LMIO400-1deg-AnnualMean-PE.nc"
 M2LMIO560 <- "M2LMIO560-1deg-AnnualMean-PE.nc"
 
 
-Poblete_pg <- "MioMIP1 & CMIP6 simulations/Paleogeography/LM_topo.nc"     # IPSLCM paleogeography
-Farnsworth_pg <- "MioMIP1 & CMIP6 simulations/Paleogeography/tfgSa.qrparm.mask.nc"     # Langhian HadCM3 paleogeography
-Farnsworth_pg_mes <- "MioMIP1 & CMIP6 simulations/Paleogeography/tfgSb.qrparm.mask.nc"     # Langhian HadCM3 paleogeography
-Burls_pg   <- "MioMIP1 & CMIP6 simulations/Paleogeography/miocene_topo_pollard_antscape_dolan_0.5x0.5.nc"     # Herold/Burls paleogeography
-Zhang_pg   <- "MioMIP1 & CMIP6 simulations/Paleogeography/texpd.qrparm.mask.nc"     # NorESM paleogeography
-Bradshaw_pg   <- "MioMIP1 & CMIP6 simulations/Paleogeography/teudm.qrparm.mask.nc"     # mid-Miocene HadCM3 paleogeography
+Poblete_pg <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/LM_topo.nc"     # IPSLCM paleogeography
+Farnsworth_pg <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/tfgSa.qrparm.mask.nc"     # Langhian HadCM3 paleogeography
+Farnsworth_pg_mes <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/tfgSb.qrparm.mask.nc"     # Langhian HadCM3 paleogeography
+Burls_pg   <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/miocene_topo_pollard_antscape_dolan_0.5x0.5.nc"     # Herold/Burls paleogeography
+Zhang_pg   <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/texpd.qrparm.mask.nc"     # NorESM paleogeography
+Bradshaw_pg   <- "RScripts&Data/MioMIP1 & CMIP6 simulations/Paleogeography/teudm.qrparm.mask.nc"     # mid-Miocene HadCM3 paleogeography
 
 
 inspect_exp_names <- function(file) {
@@ -239,7 +239,7 @@ save_pe_plot <- function(plot, filename, nrow, ncol, panel_width = 1700, panel_h
   dev.off()
 }
 
-setwd("MioMIP1 & CMIP6 simulations/")
+setwd("RScripts&Data/MioMIP1 & CMIP6 simulations/")
 save_pe_plot(p_280_560,  "Extended Figure 6.png", nrow = 2, ncol = 3)
 save_pe_plot(p_400,  "Extended Figure 7.png", nrow = 2, ncol = 4)
 
