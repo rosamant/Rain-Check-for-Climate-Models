@@ -240,6 +240,6 @@ save_pe_plot <- function(plot, filename, nrow, ncol, panel_width = 1700, panel_h
 }
 
 setwd("RScripts&Data/MioMIP1 & CMIP6 simulations/")
-save_pe_plot(p_280_560,  "Extended Figure 6.png", nrow = 2, ncol = 3)
-save_pe_plot(p_400,  "Extended Figure 7.png", nrow = 2, ncol = 4)
+save_pe_plot(p_280_560,  "Extended Figure 10.png", nrow = 2, ncol = 3)
+save_pe_plot(p_400,  "Extended Figure 11.png", nrow = 2, ncol = 4)
 

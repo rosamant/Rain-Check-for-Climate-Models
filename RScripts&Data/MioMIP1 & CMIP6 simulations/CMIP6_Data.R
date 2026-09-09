@@ -265,4 +265,4 @@ p <- ggplot(ens, aes(x = monsoon_year)) +
 print(p)
 
 setwd("RScripts&Data/MioMIP1 & CMIP6 simulations/")
-ggsave("Extended Figure 8.png", plot = p, width = 10, height = 6.5, dpi = 600)
+ggsave("Extended Figure 1.png", plot = p, width = 10, height = 6.5, dpi = 600)
