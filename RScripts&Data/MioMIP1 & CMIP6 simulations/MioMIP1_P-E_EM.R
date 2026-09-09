@@ -257,9 +257,9 @@ herold_ids    <- c("tflha", "tflhb", "tflhc", "tflhd")
 herold_co2    <- c(280, 400, 560, 840)
 herold_labels <- paste0("HadCM3BL-Herold", herold_co2, "ppm")
 
-herold_precip_dir <- "RScripts&Data/Herold Pgeog/"
-herold_evap_dir   <- "RScripts&Data/Herold Pgeog/"
-herold_lsm_dir    <- "RScripts&Data/Herold Pgeog/"
+herold_precip_dir <- "RScripts&Data/HadCM3BL-Herold/"
+herold_evap_dir   <- "RScripts&Data/HadCM3BL-Herold/"
+herold_lsm_dir    <- "RScripts&Data/HadCM3BL-Herold/"
 
 get_herold_slice <- function(id) {
   
