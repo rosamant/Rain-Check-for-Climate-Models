@@ -103,5 +103,7 @@ This work is licensed under a
 
 * Valdes, P. J. et al. The BRIDGE HadCM3 family of climate models: HadCM3@Bristol v1.0. Geoscientific Model Development 10, 3715–3743 (2017).
 
+* Acosta, R. P. et al. A Model-Data Comparison of the Hydrological Response to Miocene Warmth: Leveraging the MioMIP1 Opportunistic Multi-Model Ensemble. Paleoceanography and Paleoclimatology 39, e2023PA004726 (2024).
+
 
 
